@@ -16,7 +16,7 @@ if st.button ("bet now " , type = "primary"):
 
         placeholder.empty()
 
-        result = random.choice (["DRAGON " , "TIGER "])
+        result = random.choice (["DRAGON" , "TIGER"])
 
         if result == "TIGER":
             st.image ("tiger.png ", width = 300)
